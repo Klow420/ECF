@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(232, 232, 232);
+}
+header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(221, 219, 219, 0.902);
+    background-color: white;
+    padding: 10px;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    border: 1px solid rgba(221, 219, 219, 0.902);
+    padding: 15px;
+    height: 200px;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#recherche {
+    height: 2rem;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(221, 219, 219, 0.902);
+    padding: 0px 10px;
+}
+#croissant {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid rgba(221, 219, 219, 0.902);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#croissant:hover {
+    background-color: black;
+    color: white;
+}
+#décroissant {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid rgba(221, 219, 219, 0.902);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#décroissant:hover {
+    background-color: black;
+    color: white;
+}
+.ranger span {
+    margin: 5px;
+}
+.Link {
+    text-decoration: underline;
+}
+label {
+    padding: 0px 10px 0px 0px;
+}
+#auth {
+    padding: 0px 10px 0px 10px;
+}
+.https {
+    display: flex;
+    align-items: center;
+}
+.auth {
+    display: flex;
+    align-items: center;
+}
+i {
+    padding: 5px;
+}
+#horns, #scales {
+    cursor: pointer;
+}
